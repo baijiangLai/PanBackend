@@ -1,4 +1,4 @@
 package com.lbj.panbackend.mappers;
 
-public class UserInfoMapper {
+public interface UserInfoMapper<T, P> extends BaseMapper<T, P>{
 }
